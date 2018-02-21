@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PRJ_ROOT = os.path.join(BASE_DIR, '..')
 
 VENDOR_DIR = os.path.join(PRJ_ROOT, 'vendor')
-sys.path.insert(0, os.path.join(VENDOR_DIR, 'lbforum'))
+sys.path.insert(0, os.path.join(VENDOR_DIR, 'lbforumTest'))
 sys.path.insert(0, os.path.join(VENDOR_DIR, 'lbutils'))
 sys.path.insert(0, os.path.join(VENDOR_DIR, 'django-lbattachment'))
 
