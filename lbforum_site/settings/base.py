@@ -156,8 +156,8 @@ MEDIA_URL_ = '/media/'
 MEDIA_URL = HOST_URL + MEDIA_URL_
 MEDIA_ROOT = os.path.join(PRJ_ROOT, 'media')
 
-LBFORUM_TITLE = "LBForum"
-LBFORUM_SUB_TITLE = "A Forum powered by Django"
+LBFORUM_TITLE = "DARKMARKET"
+LBFORUM_SUB_TITLE = "A Forum powered by Melkie"
 
 CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
 
